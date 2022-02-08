@@ -1,6 +1,5 @@
 <template>
   <div class="container certified">
-
     <div class="info-stories">
       <p class="font-mini-title">who we are</p>
 
@@ -23,10 +22,10 @@
       </p>
       <div class="more-info">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
           fuga repellat, perspiciatis laborum tempora, eius tempore rerum quia
           minima quaerat maxime quasi? Nemo dolorem, eius delectus natus dolores
-          iste aut.
+          iste aut.</i>
         </p>
       </div>
       <p>
@@ -37,12 +36,50 @@
       </p>
 
       <ul>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
       </ul>
+    </div>
+
+    <div class="certifications">
+      <h3>Vehicle Types</h3>
+      <div class="vehicle-weight">
+        <div class="content-image">
+          <img src="../assets/truck-1.png" alt="" />
+        </div>
+        <div class="description-vehicle">
+          <h4>Light</h4>
+          <p>Max Weight 1200 kg</p>
+        </div>
+      </div>
+      <div class="vehicle-weight border">
+        <div class="content-image">
+          <img src="../assets/truck-1.png" alt="" />
+        </div>
+        <div class="description-vehicle">
+          <h4>Medium</h4>
+          <p>Max Weight 6000 kg</p>
+        </div>
+      </div>
+      <div class="vehicle-weight">
+        <div class="content-image">
+          <img src="../assets/truck-1.png" alt="" />
+        </div>
+        <div class="description-vehicle">
+          <h4>Heavy</h4>
+          <p>Max Weight 24000 kg</p>
+        </div>
+      </div>
+
+      <h3>Certifications</h3>
+      <div class="inner-image">
+          <img src="../assets/certificate.png" alt="">
+          <img src="../assets/certificate.png" alt="">
+      </div>
+
     </div>
   </div>
 </template>
