@@ -4,12 +4,22 @@
     height: 50px;
     border: 1px solid black;
     background-color: $SmaltBlue;
+    font-size: smaller;
 
     .contacts {
         height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        color: $White;
 
+        ul {
+            list-style: none;
+            display: flex;
+
+          li {
+              margin-left: 20px;
+          }
+        }
     }
 }
