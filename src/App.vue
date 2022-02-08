@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-   dsaasda
+    <header-app/>
   </div>
 </template>
 
 <script>
+import HeaderApp from './components/HeaderApp.vue'
 
 export default {
   name: 'App',
   components: {
-    
+    HeaderApp
   }
 }
 </script>
