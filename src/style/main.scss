@@ -1,3 +1,5 @@
+@import './variablesColor.scss';
+
 * {
     padding: 0;
     margin: 0;
@@ -8,4 +10,20 @@
     margin: 0 auto;
     width: 1200px;
     border: 1px solid black;
+}
+
+.buttons {
+    padding: 10px;
+    border-radius: 5px;
+    color: $White;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button-login {
+    background-color: $BluChill;
+}
+.button-transparent {
+    margin-left: 15px;
+    border: 1px solid $BluChill;
+    // inserire opacity dopo aver messo l'immagine
 }
