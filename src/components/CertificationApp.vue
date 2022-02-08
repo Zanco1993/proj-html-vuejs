@@ -1,9 +1,9 @@
 <template>
   <div class="container certified">
     <div class="info-stories">
-      <p class="font-mini-title">who we are</p>
+      <p class="font-mini-title"><strong>who we are</strong></p>
 
-      <span class="font-diamond font-title"
+      <span class="bg-title font-title"
         ><i class="far fa-gem"></i> Excellence</span
       >
       <span class="font-title">in Transport</span>

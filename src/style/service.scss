@@ -1,0 +1,70 @@
+@import './variablesColor.scss';
+
+.service {
+    height: 700px;
+    background-color: $Woodsmoke;
+    padding: 100px 0;
+    
+   .title {
+       padding: 20px 0;
+   }
+
+    .bg-title {
+        color: $breakerbay;
+        background-color: $BlueLagoon;
+        border-radius: 5px;
+        padding: 0 10px;
+        margin-left: 3px;
+    }
+ 
+    .font-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: $White;
+    }
+
+    .description-service {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .info-service {
+            width: 80%;
+        }
+    }
+
+    .box-card {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+
+        .content-card {
+            width: 350px;
+            height: 300px;
+            padding: 30px;
+            background-color: $Shark;
+            border-radius: 10px;
+
+            .box-image {
+                display: flex;
+                justify-content: space-between;
+
+                .fa-temperature-low, .fa-truck-loading, .fa-boxes{
+                   font-size: 40px;
+                   background-color: $BlueLagoon;
+                   padding: 15px;
+                   border-radius: 50%;
+                }
+                .fas {
+                   color: $FountainBlue;
+                }
+            }
+            h3 {
+                padding: 15px 0;
+                color: $White;
+            }
+            
+           
+        }
+    }
+}
