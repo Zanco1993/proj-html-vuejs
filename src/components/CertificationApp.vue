@@ -89,5 +89,5 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/containerMain.scss";
+@import "@/style/certification.scss";
 </style>

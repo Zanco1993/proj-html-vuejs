@@ -1,25 +1,25 @@
 <template>
   <div id="app">
     <header-app />
-    <main-app />
+    <certification-app />
   </div>
 </template>
 
 <script>
-import HeaderApp from './components/HeaderApp.vue'
-import MainApp from './components/MainApp.vue'
+import HeaderApp from "./components/HeaderApp.vue";
+
+import CertificationApp from "./components/CertificationApp.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HeaderApp,
-    MainApp
-
-  }
-}
+    CertificationApp,
+  },
+};
 </script>
 
 <style lang="scss">
-@import './style/main.scss';
-@import './style/variablesColor.scss';
-@import '~@fortawesome/fontawesome-free/css/all.css';
+@import "./style/main.scss";
+@import "./style/variablesColor.scss";
+@import "~@fortawesome/fontawesome-free/css/all.css";
 </style>
