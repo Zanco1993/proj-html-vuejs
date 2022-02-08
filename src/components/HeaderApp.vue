@@ -45,18 +45,18 @@
       </div>
 
       <div class="container">
-          <div class="content-jumbo">
-              <p class="font-text">LOGISTICS SERVICES</p>
-              <h1>CARGO TRANSPORT</h1>
-              <p>Fractional or exclusive road cargo transportation to all
-                  regions with small, medium and large vehicles.
-              </p>
-              <div class="box-info">
-                <div class="buttons button-login">get in touch</div>
-                <div class="buttons button-transparent">read more</div>
-              </div>
-
+        <div class="content-jumbo">
+          <p class="font-mini-title">logistics services</p>
+          <h1>CARGO TRANSPORT</h1>
+          <p>
+            Fractional or exclusive road cargo transportation to all regions
+            with small, medium and large vehicles.
+          </p>
+          <div class="box-info">
+            <div class="buttons button-login">get in touch</div>
+            <div class="buttons button-transparent">read more</div>
           </div>
+        </div>
       </div>
     </div>
   </header>
