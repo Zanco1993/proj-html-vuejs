@@ -1,0 +1,15 @@
+@import '@/style/variablesColor.scss';
+
+.content-info {
+    height: 50px;
+    border: 1px solid black;
+    background-color: $SmaltBlue;
+
+    .contacts {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}

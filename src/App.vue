@@ -17,4 +17,6 @@ export default {
 
 <style lang="scss">
 @import './style/main.scss';
+@import './style/variablesColor.scss';
+@import '~@fortawesome/fontawesome-free/css/all.css';
 </style>
