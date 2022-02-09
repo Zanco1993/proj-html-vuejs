@@ -25,10 +25,10 @@
     </div>
 
     <div class="jumbotron">
-      <!-- <div class="jumbotron-overlay"> -->
-      <!-- </div> -->
+      <div class="jumbotron-overlay">
+      </div> 
       <div class="container nav-bar">
-        <!-- todo logo -->
+        
         <div class="logo">
           <p>N E X G E N</p>
         </div>
@@ -46,13 +46,13 @@
 
       <div class="container">
         <div class="content-jumbo">
-          <p class="font-mini-title">logistics services</p>
+          <p class="font-mini-title py-4">logistics services</p>
           <h1>CARGO TRANSPORT</h1>
-          <p>
+          <p class="py-4">
             Fractional or exclusive road cargo transportation to all regions
             with small, medium and large vehicles.
           </p>
-          <div class="box-info">
+          <div class="box-info py-4">
             <div class="buttons button-login">get in touch</div>
             <div class="buttons button-transparent">read more</div>
           </div>

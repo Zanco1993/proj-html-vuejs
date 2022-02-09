@@ -119,7 +119,7 @@
       <div class="credits">
         <div class="container policy">
           <p>Enjoy the low  price. We are tracking any intention of privacy</p>
-          <p><i class="far fa-copyright"></i> 2020 NEXGEN in Proudly Powered by <span>Coding</span>.</p>
+          <p><i class="far fa-copyright"></i> 2020 NEXGEN is Proudly Powered by <span>Coding</span>.</p>
         </div>
       </div>
     </footer>
