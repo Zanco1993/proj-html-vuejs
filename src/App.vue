@@ -3,19 +3,22 @@
     <header-app />
     <certification-app />
     <service-app />
+    <logistical-app />
   </div>
 </template>
 
 <script>
 import HeaderApp from "./components/HeaderApp.vue";
 import CertificationApp from "./components/CertificationApp.vue";
-import ServiceApp from './components/ServiceApp.vue'
+import ServiceApp from './components/ServiceApp.vue';
+import LogisticalApp from './components/LogisticalApp.vue';
 export default {
   name: "App",
   components: {
     HeaderApp,
     CertificationApp,
-    ServiceApp
+    ServiceApp,
+    LogisticalApp
   },
 };
 </script>
