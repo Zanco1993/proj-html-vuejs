@@ -1,0 +1,70 @@
+@import "./variablesColor.scss";
+
+footer {
+    background-color: $Woodsmoke;
+    color: $SilverSand;
+    
+    .box-card {
+        padding: 100px 0;
+        display: flex;
+
+        .card {
+            width: calc(100% / 4 - 20px);
+            margin: 0 10px;
+            border-radius: 5px;
+
+            .generic-info {
+                height: 40px;
+                display: flex;
+                align-items: center;
+                margin: 5px 0;
+
+                i {
+                    font-size: 20px;
+                    padding: 10px;
+                    border-radius: 50%;
+                }
+                span {
+                    padding-left: 15px;
+                }
+            }
+        }
+        .about,
+        .transport,
+        .support {
+            background-color: $Shark;
+            padding: 20px 30px;
+
+            h1 {
+                color: $White;
+            }
+            ul {
+                list-style: none;
+
+                li {
+                    margin-bottom: 10px;
+
+                    span {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .credits {
+        background-color: black;
+        
+        .policy {
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            span {
+                color: $SmaltBlue;
+            }
+        }
+    }
+}
