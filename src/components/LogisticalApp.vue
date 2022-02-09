@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg">
     <div class="logistical">
       <div class="info-stories">
         <p class="font-mini-title"><strong>how it works in practice</strong></p>
