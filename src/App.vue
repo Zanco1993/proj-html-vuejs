@@ -5,6 +5,7 @@
     <service-app />
     <logistical-app />
     <results-app />
+    <feedback />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import CertificationApp from "./components/CertificationApp.vue";
 import ServiceApp from './components/ServiceApp.vue';
 import LogisticalApp from './components/LogisticalApp.vue';
 import ResultsApp from './components/ResultsApp.vue';
+import Feedback from './components/Feedback.vue'
 export default {
   name: "App",
   components: {
@@ -21,7 +23,8 @@ export default {
     CertificationApp,
     ServiceApp,
     LogisticalApp,
-    ResultsApp
+    ResultsApp,
+    Feedback
   },
 };
 </script>

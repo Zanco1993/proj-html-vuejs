@@ -1,0 +1,55 @@
+@import "./variablesColor.scss";
+
+.service {
+    height: 700px;
+    background-color: $Woodsmoke;
+    padding: 100px 0;
+
+    .title {
+        padding: 20px 0;
+    }
+
+    .bg-title {
+        color: $breakerbay;
+        background-color: #1a3339;
+        border-radius: 5px;
+        padding: 0 10px;
+        margin-left: 3px;
+    }
+
+    .font-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: $White;
+    }
+
+    .info-service {
+        padding: 0 200px;
+    }
+
+    .box-card {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+
+        .content-card {
+            width: 350px;
+            height: 300px;
+            padding: 30px;
+            background-color: $Shark;
+            border-radius: 10px;
+            position: relative;
+
+            img {
+                filter: invert(1);
+            }
+
+            .icon {
+                position: absolute;
+                right: 20px;
+                font-size: 30px;
+                color: $MidGray;
+            }
+        }
+    }
+}
