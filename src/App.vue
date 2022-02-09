@@ -3,9 +3,10 @@
     <header-app />
     <certification-app />
     <service-app />
-    <logistical-app />
+    <logistic-app />
     <results-app />
     <feedback />
+    <get-in-touch />
   </div>
 </template>
 
@@ -13,18 +14,21 @@
 import HeaderApp from "./components/HeaderApp.vue";
 import CertificationApp from "./components/CertificationApp.vue";
 import ServiceApp from './components/ServiceApp.vue';
-import LogisticalApp from './components/LogisticalApp.vue';
+import LogisticApp from './components/LogisticApp.vue';
 import ResultsApp from './components/ResultsApp.vue';
-import Feedback from './components/Feedback.vue'
+import Feedback from './components/Feedback.vue';
+import GetInTouch from './components/GetInTouch.vue'
+
 export default {
   name: "App",
   components: {
     HeaderApp,
     CertificationApp,
     ServiceApp,
-    LogisticalApp,
+    LogisticApp,
     ResultsApp,
-    Feedback
+    Feedback,
+    GetInTouch
   },
 };
 </script>
