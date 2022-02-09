@@ -27,7 +27,8 @@
     <div class="jumbotron">
       <div class="jumbotron-overlay">
       </div> 
-      <div class="container nav-bar">
+
+      <div class="container nav-bar on-overlay">
         
         <div class="logo">
           <p>N E X G E N</p>
@@ -44,7 +45,7 @@
         </nav>
       </div>
 
-      <div class="container">
+      <div class="container on-overlay">
         <div class="content-jumbo">
           <p class="font-mini-title py-4">logistics services</p>
           <h1>CARGO TRANSPORT</h1>

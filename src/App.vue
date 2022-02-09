@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-app />
+    <header-app title="ciao"/>
     <certification-app />
     <service-app />
     <logistic-app />
