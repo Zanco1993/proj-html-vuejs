@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-app title="ciao"/>
+    <header-app />
     <certification-app />
     <service-app />
     <logistic-app />
@@ -42,4 +42,5 @@ export default {
 @import "./style/main.scss";
 @import "./style/variablesColor.scss";
 @import "~@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 </style>
