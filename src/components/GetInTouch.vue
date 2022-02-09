@@ -13,19 +13,41 @@
           </p>
         </div>
 
-        <div class="text-area">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Name">
-            
+        <div class="box-input">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Phone" />
+          <input type="text" placeholder="More info" />
         </div>
+        <textarea rows="8" placeholder="Message"></textarea>
+        <span class="buttons button-login">Send</span>
       </div>
 
       <div class="contact">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vel in
-        laboriosam voluptatibus fuga, unde optio, dolor explicabo ipsa
-        recusandae sequi quis. Quasi harum fugiat quas a reiciendis totam ut.
+        <h3>Example Inc.</h3>
+        <p class="py-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
+          commodi?
+        </p>
+        <p class="py-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
+          commodi?
+        </p>
+        <div class="generic-info py-4 my-4">
+          <i class="fas fa-phone"></i>
+          <span> +1 (305) 1234-5678</span>
+        </div>
+        <div class="generic-info py-4 my-4">
+          <i class="fas fa-envelope"></i>
+          <span>hello@example.com</span>
+        </div>
+        <div class="generic-info py-4 my-4">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Main Avenue, 987</span>
+        </div>
+        <div class="generic-info py-4 my-4">
+          <span class="buttons button-transparent">view map</span>
+        </div>
       </div>
     </div>
   </div>

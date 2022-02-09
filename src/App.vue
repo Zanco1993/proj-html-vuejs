@@ -7,6 +7,7 @@
     <results-app />
     <feedback />
     <get-in-touch />
+    <footer-app />
   </div>
 </template>
 
@@ -17,7 +18,9 @@ import ServiceApp from './components/ServiceApp.vue';
 import LogisticApp from './components/LogisticApp.vue';
 import ResultsApp from './components/ResultsApp.vue';
 import Feedback from './components/Feedback.vue';
-import GetInTouch from './components/GetInTouch.vue'
+import GetInTouch from './components/GetInTouch.vue';
+import FooterApp from './components/FooterApp.vue';
+
 
 export default {
   name: "App",
@@ -28,7 +31,9 @@ export default {
     LogisticApp,
     ResultsApp,
     Feedback,
-    GetInTouch
+    GetInTouch,
+    FooterApp
+ 
   },
 };
 </script>
