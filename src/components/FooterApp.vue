@@ -25,6 +25,8 @@
           </div>
         </div>
 
+        <!-- Porto il contenuto di linkFooter in un componente separato -->
+
         <cardfooter
           v-for="(link, index) in linkFooter"
           :key="index"

@@ -17,9 +17,14 @@
       </div>
     </div>
 
+    <!-- Porto il contenuto di processInfo in un componente separato -->
+
     <div class="process">
-      <card-logistic v-for="(process, index) in processInfo" :key="index" :process="process" />
-      
+      <card-logistic
+        v-for="(process, index) in processInfo"
+        :key="index"
+        :process="process"
+      />
     </div>
   </div>
 </template>

@@ -17,6 +17,8 @@
           recognition.
         </p>
 
+        <!-- Porto il contenuto di listFeedback in un componente separato -->
+
         <div class="box-card">
           <card-feedback
             v-for="(feed, index) in listFeedback"

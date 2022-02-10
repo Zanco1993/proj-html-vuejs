@@ -40,6 +40,7 @@
               <a href="#info" class="buttons button-login">get in touch</a>
             </li>
           </ul>
+          
         </nav>
       </div>
 

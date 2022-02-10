@@ -1,7 +1,7 @@
 <template>
   <div class="bg">
     <div class="container results">
-      <div class="info-stories">
+      <div class="info">
         <p class="font-mini-title"><strong>what are we doing</strong></p>
         <span class="bg-title font-title">Results</span>
         <span class="font-title">in Numbers</span>
