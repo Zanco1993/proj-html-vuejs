@@ -2,7 +2,7 @@
   <div class="container">
     <div class="get-in-touch">
       <div class="info-user">
-        <p class="font-mini-title"><strong>send a message</strong></p>
+        <p class="font-mini-title color"><strong>send a message</strong></p>
         <div class="title">
           <span class="font-title">Get in</span>
           <span class="bg-title font-title">Touch</span>
@@ -15,7 +15,7 @@
 
         <div class="box-input">
           <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Email" />
+          <input type="email" placeholder="Email" />
           <input type="text" placeholder="Phone" />
           <input type="text" placeholder="More info" />
         </div>
@@ -33,19 +33,19 @@
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
           commodi?
         </p>
-        <div class="generic-info py-4 my-4">
+        <div class="generic-info">
           <i class="fas fa-phone"></i>
           <span> +1 (305) 1234-5678</span>
         </div>
-        <div class="generic-info py-4 my-4">
+        <div class="generic-info">
           <i class="fas fa-envelope"></i>
           <span>hello@example.com</span>
         </div>
-        <div class="generic-info py-4 my-4">
+        <div class="generic-info">
           <i class="fas fa-map-marker-alt"></i>
           <span>Main Avenue, 987</span>
         </div>
-        <div class="generic-info py-4 my-4">
+        <div class="generic-info">
           <span class="buttons button-transparent">view map</span>
         </div>
       </div>

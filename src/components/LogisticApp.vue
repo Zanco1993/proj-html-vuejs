@@ -1,8 +1,8 @@
 <template>
   <div class="bg">
-    <div class="logistical">
+    <div class="logistical text-center">
       <div class="info-stories">
-        <p class="font-mini-title"><strong>how it works in practice</strong></p>
+        <p class="font-mini-title color-title"><strong>how it works in practice</strong></p>
 
         <span class="bg-title font-title">Logistical</span>
         <span class="font-title">Procedure</span>
@@ -16,36 +16,36 @@
 
     <div class="process">
       <div class="card-info">
-          <h2>Collection of information</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h3>Collection of information</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
           <span class="number-process">
               01
           </span>
       </div>
       <div class="card-info">
-          <h2>Service Invoice Sending</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h3>Service Invoice Sending</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
           <span class="number-process">
               02
           </span>
       </div>
       <div class="card-info">
-          <h2>Withdrawal of Cargo</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h3>Withdrawal of Cargo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
           <span class="number-process">
               03
           </span>
       </div>
       <div class="card-info">
-          <h2>Transport Customer Order</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h3>Transport Customer Order</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
           <span class="number-process">
               04
           </span>
       </div>
       <div class="card-info">
-          <h2>Successful Delivery</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h3>Successful Delivery</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
           <span class="number-process">
               05
           </span>

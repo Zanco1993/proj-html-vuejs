@@ -11,7 +11,7 @@
 
     .bg-title {
         color: $breakerbay;
-        background-color: $BlueLagoon;
+        background-color: #1a3339;
         border-radius: 5px;
         padding: 0 10px;
         margin-left: 3px;
@@ -29,7 +29,7 @@
         align-items: center;
 
         .info-service {
-            width: 80%;
+            width: 70%;
         }
     }
 
@@ -39,10 +39,10 @@
         padding: 30px 0;
 
         .content-card {
-            width: 350px;
+            width: calc(100% / 3 - 20px);
             height: 300px;
             padding: 30px;
-            background-color: $Shark;
+            background-color: #19191E;
             border-radius: 10px;
 
             .box-image {
@@ -51,12 +51,12 @@
 
                 .fa-temperature-low, .fa-truck-loading, .fa-boxes{
                    font-size: 40px;
-                   background-color: $BlueLagoon;
+                   background-color: #1a3339;
                    padding: 15px;
                    border-radius: 50%;
                 }
                 .fas {
-                   color: $FountainBlue;
+                   color: $BluChill;
                 }
             }
             h3 {

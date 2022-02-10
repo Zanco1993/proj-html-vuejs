@@ -28,13 +28,13 @@
       <div class="jumbotron-overlay"></div>
 
       <div class="container nav-bar on-overlay">
-        <div class="logo">
-          <p>N E X G E N</p>
-        </div>
+        <logo-app />
 
         <nav>
           <ul>
-            <li v-for="(link, index) in listLink" :key="index">{{ link.title }}</li>
+            <li v-for="(link, index) in listLink" :key="index">
+              {{ link.title }}
+            </li>
             <li><i class="far fa-user"></i></li>
             <li>
               <div class="buttons button-login">get in touch</div>
@@ -52,7 +52,7 @@
             with small, medium and large vehicles.
           </p>
           <div class="box-info py-4">
-            <div class="buttons button-login">get in touch</div>
+            <div class="buttons button-login mr-4">get in touch</div>
             <div class="buttons button-transparent">read more</div>
           </div>
         </div>
@@ -62,7 +62,11 @@
 </template>
 
 <script>
+import LogoApp from "./logoApp.vue";
 export default {
+  components: {
+    LogoApp,
+  },
   data() {
     return {
       listLink: [

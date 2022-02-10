@@ -9,7 +9,7 @@
         <span class="bg-title font-title">Feedback</span>
       </div>
 
-      <p class="info-service">
+      <p class="info-service text-center">
         We work intensively in search of ideals that can add up in the lives of
         our customers. This is what moves us and we are grateful for the
         recognition.

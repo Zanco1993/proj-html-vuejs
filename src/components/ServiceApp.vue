@@ -8,10 +8,9 @@
       </div>
       <div class="description-service">
         <p class="info-service">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
-          tempora corrupti repellendus autem? Placeat id, deserunt, quisquam
-          dolores maxime aperiam delectus provident quam illum minus deleniti
-          expedita in dolor ea?
+          With all of this expertise and capability comes an unrivalled
+          commitment to customer service. We will work hard to understand your
+          needs in order to develop a productive, long-term partnership.
         </p>
         <div class="buttons button-transparent">see all</div>
       </div>

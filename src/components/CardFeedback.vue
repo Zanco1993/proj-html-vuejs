@@ -29,7 +29,7 @@ export default {
 @import "../style/variablesColor.scss";
 
 .content-card {
-  width: 350px;
+  width: calc(100% / 3 - 20px);
   height: 300px;
   padding: 30px;
   background-color: $Shark;

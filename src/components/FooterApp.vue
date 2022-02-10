@@ -3,7 +3,7 @@
     <footer>
       <div class="container box-card">
         <div class="card">
-          <p class="py-4">N E X G E N</p>
+          <logo-app />
           <p class="py-4">
             A functional HTML Template for Corporate & Business
           </p>
@@ -37,7 +37,7 @@
           <p>Enjoy the low price. We are tracking any intention of privacy</p>
           <p>
             <i class="far fa-copyright"></i> 2020 NEXGEN is Proudly Powered by
-            <span>Coding</span>.
+            <span>Codings</span>.
           </p>
         </div>
       </div>
@@ -47,6 +47,7 @@
 
 <script>
 import Cardfooter from "./Cardfooter.vue";
+import LogoApp from './logoApp.vue'
 export default {
   data() {
     return {
@@ -70,7 +71,7 @@ export default {
             "Packaged Liquids",
             "Construction",
             "Laminated Wood",
-            "And others"
+            "And others",
           ],
         },
         {
@@ -89,6 +90,7 @@ export default {
   },
   components: {
     Cardfooter,
+    LogoApp
   },
 };
 </script>

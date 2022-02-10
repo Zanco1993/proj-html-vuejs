@@ -32,6 +32,7 @@
 
         .info-service {
             width: 80%;
+            color: $MidGray;
         }
     }
     .box-input {
@@ -59,6 +60,9 @@
 .contact {
     width: 30%;
     margin-bottom: 20px;
+    p {
+        color: $MidGray;
+    }
     .generic-info {
         height: 50px;
         display: flex;
@@ -73,7 +77,7 @@
             border-radius: 50%;
         }
         span {
-            color: #daeced;
+            color: $BluChill;
             padding-left: 15px;
         }
     }
