@@ -25,18 +25,16 @@
     </div>
 
     <div class="jumbotron">
-      <div class="jumbotron-overlay">
-      </div> 
+      <div class="jumbotron-overlay"></div>
 
       <div class="container nav-bar on-overlay">
-        
         <div class="logo">
           <p>N E X G E N</p>
         </div>
 
         <nav>
           <ul>
-            <li v-for="(link, index) in listLink" :key="index">{{ link }}</li>
+            <li v-for="(link, index) in listLink" :key="index">{{ link.title }}</li>
             <li><i class="far fa-user"></i></li>
             <li>
               <div class="buttons button-login">get in touch</div>
@@ -67,7 +65,23 @@
 export default {
   data() {
     return {
-      listLink: ["Home", "about", "services", "process", "testimonials"],
+      listLink: [
+        {
+          title: "Home",
+        },
+        {
+          title: "about",
+        },
+        {
+          title: "services",
+        },
+        {
+          title: "process",
+        },
+        {
+          title: "testimonials",
+        },
+      ],
     };
   },
 };
