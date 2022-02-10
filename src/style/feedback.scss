@@ -1,36 +1,37 @@
 @import "./variablesColor.scss";
-
-.service {
-    height: 700px;
+.bg {
     background-color: $Woodsmoke;
-    padding: 100px 0;
 
-    .title {
-        padding: 20px 0;
-    }
+    .service {
+        padding: 100px 0;
+        height: 700px;
 
-    .bg-title {
-        color: $breakerbay;
-        background-color: #1a3339;
-        border-radius: 5px;
-        padding: 0 10px;
-        margin-left: 3px;
-    }
+        .title {
+            padding: 20px 0;
+        }
 
-    .font-title {
-        font-size: 40px;
-        font-weight: bold;
-        color: $White;
-    }
+        .bg-title {
+            color: $breakerbay;
+            background-color: #1a3339;
+            border-radius: 5px;
+            padding: 0 10px;
+            margin-left: 3px;
+        }
 
-    .info-service {
-        padding: 0 200px;
-    }
+        .font-title {
+            font-size: 40px;
+            font-weight: bold;
+            color: $White;
+        }
 
-    .box-card {
-        display: flex;
-        justify-content: space-between;
-        padding: 30px 0;
+        .info-service {
+            padding: 0 200px;
+        }
 
+        .box-card {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 0;
+        }
     }
 }

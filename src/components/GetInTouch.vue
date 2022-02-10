@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <a name="info"></a>
     <div class="get-in-touch">
       <div class="info-user">
         <p class="font-mini-title color"><strong>send a message</strong></p>

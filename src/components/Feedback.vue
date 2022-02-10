@@ -1,27 +1,29 @@
 <template>
-  <div class="service">
-    <div class="container">
-      <p class="font-mini-title text-center">
-        <strong>customer testimonials</strong>
-      </p>
-      <div class="title text-center">
-        <span class="font-title">Trusted</span>
-        <span class="bg-title font-title">Feedback</span>
-      </div>
+  <div class="bg">
+    <a name="testimonials"></a>
+    <div class="service">
+      <div class="container">
+        <p class="font-mini-title text-center">
+          <strong>customer testimonials</strong>
+        </p>
+        <div class="title text-center">
+          <span class="font-title">Trusted</span>
+          <span class="bg-title font-title">Feedback</span>
+        </div>
 
-      <p class="info-service text-center">
-        We work intensively in search of ideals that can add up in the lives of
-        our customers. This is what moves us and we are grateful for the
-        recognition.
-      </p>
+        <p class="info-service text-center">
+          We work intensively in search of ideals that can add up in the lives
+          of our customers. This is what moves us and we are grateful for the
+          recognition.
+        </p>
 
-      <div class="box-card">
-        <card-feedback
-          v-for="(feed, index) in listFeedback"
-          :key="index"
-          :feed="feed"
-        />
-  
+        <div class="box-card">
+          <card-feedback
+            v-for="(feed, index) in listFeedback"
+            :key="index"
+            :feed="feed"
+          />
+        </div>
       </div>
     </div>
   </div>

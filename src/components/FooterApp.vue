@@ -47,7 +47,7 @@
 
 <script>
 import Cardfooter from "./Cardfooter.vue";
-import LogoApp from './logoApp.vue'
+import LogoApp from "./logoApp.vue";
 export default {
   data() {
     return {
@@ -90,7 +90,7 @@ export default {
   },
   components: {
     Cardfooter,
-    LogoApp
+    LogoApp,
   },
 };
 </script>

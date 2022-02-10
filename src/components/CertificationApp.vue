@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <a name="about"></a>
     <div class="certified">
       <div class="info-stories">
         <p class="font-mini-title color-title"><strong>who we are</strong></p>

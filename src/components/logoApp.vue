@@ -10,7 +10,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-
 @import "@/style/variablesColor.scss";
 
 .logo {

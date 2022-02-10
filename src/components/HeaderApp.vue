@@ -1,5 +1,6 @@
 <template>
   <header>
+    <a name="home"></a>
     <div class="content-info">
       <div class="container contacts">
         <div class="open-hours">
@@ -33,11 +34,11 @@
         <nav>
           <ul>
             <li v-for="(link, index) in listLink" :key="index">
-              {{ link.title }}
+              <a :href="`#${link.title}`">{{ link.url }}</a>
             </li>
             <li><i class="far fa-user"></i></li>
             <li>
-              <div class="buttons button-login">get in touch</div>
+              <a href="#info" class="buttons button-login">get in touch</a>
             </li>
           </ul>
         </nav>
@@ -71,19 +72,24 @@ export default {
     return {
       listLink: [
         {
-          title: "Home",
+          title: "home",
+          url: "home",
         },
         {
           title: "about",
+          url: "about",
         },
         {
           title: "services",
+          url: "services",
         },
         {
           title: "process",
+          url: "process",
         },
         {
           title: "testimonials",
+          url: "testimonials",
         },
       ],
     };

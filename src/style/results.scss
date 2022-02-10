@@ -2,28 +2,28 @@
 
 .bg {
     height: 600px;
-    background-image: url('../assets/bg-10.jpg');
+    background-image: url("../assets/bg-10.jpg");
     background-position: center;
     background-size: cover;
 
     .results {
         padding: 100px 0;
         text-align: center;
-        
+
         .info-stories {
             padding-right: 20px;
             padding: 0 100px;
-            
+
             p {
                 margin: 20px 0;
             }
-            
+
             .bg-title {
                 color: $White;
-                background-color: #1A3339;
+                background-color: #1a3339;
                 border-radius: 5px;
             }
-            
+
             .font-title {
                 font-size: 40px;
                 font-weight: bold;
@@ -32,16 +32,16 @@
             }
         }
     }
-    
+
     .process {
         width: 100%;
         display: flex;
         padding-top: 100px;
-        
+
         .card-info {
             width: calc(100% / 4);
             text-align: center;
-            
+
             h1 {
                 padding: 20px 40px;
                 color: $BluChill;
@@ -52,5 +52,4 @@
             }
         }
     }
-    
 }

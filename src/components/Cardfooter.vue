@@ -1,6 +1,6 @@
 <template>
   <div class="card bg-card">
-    <h1 class="py-4">{{link.title}}</h1>
+    <h1 class="py-4">{{ link.title }}</h1>
     <ul>
       <li v-for="info in link.info" :key="info">
         <i class="fas fa-chevron-right"></i>
@@ -12,15 +12,14 @@
 
 <script>
 export default {
-    props: {
-        link: Object
-    }
+  props: {
+    link: Object,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../style/variablesColor.scss";
-
 
 .bg-card {
   background-color: $Shark;
