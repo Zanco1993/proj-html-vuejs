@@ -18,37 +18,50 @@
     </div>
 
     <div class="process">
-      <div class="card-info">
-        <h3>Collection of information</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <span class="number-process"> 01 </span>
-      </div>
-      <div class="card-info">
-        <h3>Service Invoice Sending</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <span class="number-process"> 02 </span>
-      </div>
-      <div class="card-info">
-        <h3>Withdrawal of Cargo</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <span class="number-process"> 03 </span>
-      </div>
-      <div class="card-info">
-        <h3>Transport Customer Order</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <span class="number-process"> 04 </span>
-      </div>
-      <div class="card-info">
-        <h3>Successful Delivery</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <span class="number-process"> 05 </span>
-      </div>
+      <card-logistic v-for="(process, index) in processInfo" :key="index" :process="process" />
+      
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import CardLogistic from "./CardLogistic.vue";
+export default {
+  data() {
+    return {
+      processInfo: [
+        {
+          title: "Collection of information",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+          numberProcess: "01",
+        },
+        {
+          title: "Service Invoice Sending",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+          numberProcess: "02",
+        },
+        {
+          title: "Withdrawal of Cargo",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+          numberProcess: "03",
+        },
+        {
+          title: "Transport Customer Order",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+          numberProcess: "04",
+        },
+        {
+          title: "Successful Delivery",
+          text: "Lorem ipsum dolor sit amet consectetur.",
+          numberProcess: "05",
+        },
+      ],
+    };
+  },
+  components: {
+    CardLogistic,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
