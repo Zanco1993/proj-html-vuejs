@@ -21,7 +21,7 @@
             <span>Main Avenue, 987</span>
           </div>
           <div class="generic-info">
-            <span class="buttons button-transparent">get in touch</span>
+            <a href="#info" class="buttons button-transparent">get in touch</a>
           </div>
         </div>
 
@@ -39,6 +39,9 @@
             <i class="far fa-copyright"></i> 2020 NEXGEN is Proudly Powered by
             <span>Codings</span>.
           </p>
+        </div>
+        <div class="back-to-start">
+          <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
       </div>
     </footer>

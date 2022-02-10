@@ -80,5 +80,14 @@
             color: $BluChill;
             padding-left: 15px;
         }
+        a {
+            color: $BluChill;
+            text-decoration: none;
+            
+            &:hover {
+                background-color: #daeced;
+                
+            }
+        }
     }
 }

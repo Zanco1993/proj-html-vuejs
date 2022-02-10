@@ -24,8 +24,8 @@ footer {
                     padding: 10px;
                     border-radius: 50%;
                 }
-                span {
-                    padding-left: 15px;
+                a {
+                    text-decoration: none;
                 }
             }
         }
@@ -33,6 +33,7 @@ footer {
 
     .credits {
         background-color: black;
+        position: relative;
 
         .policy {
             height: 70px;
@@ -42,6 +43,34 @@ footer {
 
             span {
                 color: $BluChill;
+            }
+        }
+
+        .back-to-start {
+            position: absolute;
+            right: 20px;
+            bottom: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #19191e;
+            text-align: center;
+            line-height: 60px;
+            transition: all 0.3s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $White;
+            }
+
+            .fa-arrow-up {
+                color: $Woodsmoke;
+                font-size: 30px;
+                transition: all 0.3s;
+
+                &:hover {
+                    color: $BluChill;
+                }
             }
         }
     }

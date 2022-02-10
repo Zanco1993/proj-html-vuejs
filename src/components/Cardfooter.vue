@@ -22,7 +22,7 @@ export default {
 @import "../style/variablesColor.scss";
 
 .bg-card {
-  background-color: $Shark;
+  background-color: #19191e;
   padding: 20px 30px;
 
   h1 {

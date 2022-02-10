@@ -27,7 +27,6 @@
 
     <div class="jumbotron">
       <div class="jumbotron-overlay"></div>
-
       <div class="container nav-bar on-overlay">
         <logo-app />
 

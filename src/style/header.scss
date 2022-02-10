@@ -12,6 +12,10 @@
         align-items: center;
         color: $White;
 
+        .fas {
+            padding-right: 5px;
+        }
+
         ul {
             list-style: none;
             display: flex;

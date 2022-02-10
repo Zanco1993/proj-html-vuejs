@@ -32,7 +32,7 @@ export default {
   width: calc(100% / 3 - 20px);
   height: 300px;
   padding: 30px;
-  background-color: $Shark;
+  background-color: #19191e;
   border-radius: 10px;
   position: relative;
 

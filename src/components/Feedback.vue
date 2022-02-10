@@ -1,7 +1,7 @@
 <template>
   <div class="bg">
     <a name="testimonials"></a>
-    <div class="service">
+    <div class="feedback">
       <div class="container">
         <p class="font-mini-title text-center">
           <strong>customer testimonials</strong>

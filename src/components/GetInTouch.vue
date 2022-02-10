@@ -47,7 +47,7 @@
           <span>Main Avenue, 987</span>
         </div>
         <div class="generic-info">
-          <span class="buttons button-transparent">view map</span>
+          <a href="https://www.google.it/maps/search/main+avenue+987/@42.5526518,-71.7443786,17z/data=!3m1!4b1?hl=it" class="buttons button-transparent">view map</a>
         </div>
       </div>
     </div>

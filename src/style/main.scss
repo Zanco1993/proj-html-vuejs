@@ -21,6 +21,11 @@ body {
     color: $White;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: $BluChill;
+    }
 }
 .button-login {
     background-color: $BluChill;
@@ -51,3 +56,4 @@ p {
 .mr-4 {
     margin-right: 25px;
 }
+

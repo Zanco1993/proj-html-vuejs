@@ -14,7 +14,7 @@
             commitment to customer service. We will work hard to understand your
             needs in order to develop a productive, long-term partnership.
           </p>
-          <div class="buttons button-transparent">see all</div>
+          <a href="#" class="buttons button-transparent">see all</a>
         </div>
 
         <div class="box-card">
