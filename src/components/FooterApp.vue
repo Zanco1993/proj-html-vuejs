@@ -25,101 +25,20 @@
           </div>
         </div>
 
-        <div class="card about">
-          <h1 class="py-4">About</h1>
-          <ul>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>The company</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Institutional</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Social & Events</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Innovation</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Environment</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Technology</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card transport">
-          <h1 class="py-4">Transport</h1>
-          <ul>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Industrialized</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Chemicals</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Packaged Liquids</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Construction</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Laminated Wood</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>And others</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="card support">
-          <h1 class="py-4">Support</h1>
-          <ul>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Responsability</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Terms of Use</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>About Cookies</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Privacy</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Accessability</span>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <span>Information</span>
-            </li>
-          </ul>
-        </div>
+        <cardfooter
+          v-for="(link, index) in linkFooter"
+          :key="index"
+          :link="link"
+        />
       </div>
 
       <div class="credits">
         <div class="container policy">
-          <p>Enjoy the low  price. We are tracking any intention of privacy</p>
-          <p><i class="far fa-copyright"></i> 2020 NEXGEN is Proudly Powered by <span>Coding</span>.</p>
+          <p>Enjoy the low price. We are tracking any intention of privacy</p>
+          <p>
+            <i class="far fa-copyright"></i> 2020 NEXGEN is Proudly Powered by
+            <span>Coding</span>.
+          </p>
         </div>
       </div>
     </footer>
@@ -127,7 +46,51 @@
 </template>
 
 <script>
-export default {};
+import Cardfooter from "./Cardfooter.vue";
+export default {
+  data() {
+    return {
+      linkFooter: [
+        {
+          title: "About",
+          info: [
+            "The Company",
+            "Institutional",
+            "Social & Events",
+            "Innovation",
+            "Environment",
+            "Technology",
+          ],
+        },
+        {
+          title: "Transport",
+          info: [
+            "Industrialized",
+            "Chemicals",
+            "Packaged Liquids",
+            "Construction",
+            "Laminated Wood",
+            "And others"
+          ],
+        },
+        {
+          title: "Support",
+          info: [
+            "Responsability",
+            "Terms of Use",
+            "About Cookies",
+            "Privacy Policy",
+            "Accessibily",
+            "Information",
+          ],
+        },
+      ],
+    };
+  },
+  components: {
+    Cardfooter,
+  },
+};
 </script>
 
 <style lang="scss" scoped>

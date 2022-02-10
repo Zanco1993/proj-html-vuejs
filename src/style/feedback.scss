@@ -32,24 +32,5 @@
         justify-content: space-between;
         padding: 30px 0;
 
-        .content-card {
-            width: 350px;
-            height: 300px;
-            padding: 30px;
-            background-color: $Shark;
-            border-radius: 10px;
-            position: relative;
-
-            img {
-                filter: invert(1);
-            }
-
-            .icon {
-                position: absolute;
-                right: 20px;
-                font-size: 30px;
-                color: $MidGray;
-            }
-        }
     }
 }

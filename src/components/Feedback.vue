@@ -16,61 +16,51 @@
       </p>
 
       <div class="box-card">
-        <div class="content-card">
-          <div class="box-image">
-            <img src="../assets/logo-1.png" alt="" />
-          </div>
-          
-          <p class="py-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta
-            pariatur aliquid quaerat libero perspiciatis magni delectus ut unde
-            omnis beatae, voluptatem expedita deleniti.
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta
-            pariatur aliquid.
-          </p>
-          <i class="fas fa-quote-right icon"></i>
-        </div>
-        <div class="content-card">
-          <div class="box-image">
-            <img src="../assets/logo-2.png" alt="" />
-          </div>
-          
-          <p class="py-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta
-            pariatur aliquid quaerat libero perspiciatis magni delectus ut unde
-            omnis beatae, voluptatem expedita deleniti.
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta
-            pariatur aliquid.
-          </p>
-          <i class="fas fa-quote-right icon"></i>
-        </div>
-        <div class="content-card">
-          <div class="box-image">
-            <img src="../assets/logo-3.png" alt="" />
-          </div>
-          
-          <p class="py-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta
-            pariatur aliquid quaerat libero perspiciatis magni delectus ut unde
-            omnis beatae, voluptatem expedita deleniti.
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta
-            pariatur aliquid.
-          </p>
-          <i class="fas fa-quote-right icon"></i>
-        </div>
+        <card-feedback
+          v-for="(feed, index) in listFeedback"
+          :key="index"
+          :feed="feed"
+        />
+  
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import CardFeedback from "./CardFeedback.vue";
+export default {
+  data() {
+    return {
+      listFeedback: [
+        {
+          image: "logo-1.png",
+          firstText:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta pariatur aliquid quaerat libero perspiciatis magni delectus ut unde omnis beatae, voluptatem expedita deleniti.",
+          secondText:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta pariatur aliquid.",
+        },
+        {
+          image: "logo-2.png",
+          firstText:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta pariatur aliquid quaerat libero perspiciatis magni delectus ut unde omnis beatae, voluptatem expedita deleniti.",
+          secondText:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta pariatur aliquid.",
+        },
+        {
+          image: "logo-3.png",
+          firstText:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta pariatur aliquid quaerat libero perspiciatis magni delectus ut unde omnis beatae, voluptatem expedita deleniti.",
+          secondText:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In soluta pariatur aliquid.",
+        },
+      ],
+    };
+  },
+  components: {
+    CardFeedback,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
